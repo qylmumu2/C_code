@@ -2,9 +2,13 @@
 using namespace std;
 
 int main(){
-    int i;
-    i = i + 1;
-    printf("wqerqegf");
-    std::cout << "helloword"  << endl;
+    int count = 10;
+    for (size_t i = 0; i < count; i++)
+    {
+        /* code */ 
+        std::cout << "helloword"  << endl;
+    }
+    
+    printf("git测试");
     return 0;
 }
